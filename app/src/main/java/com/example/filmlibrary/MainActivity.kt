@@ -1,22 +1,23 @@
 package com.example.filmlibrary
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.filmlibrary.ui.theme.FilmLibraryTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_man)
 
+    }
+    fun OnKlicButtonMeny(view: View){
+        Toast.makeText(this,"Тут скоро будет меню",Toast.LENGTH_SHORT).show()
+    }
+    fun OnKlicButtonlLike(view: View){
+        Toast.makeText(this,"Тут скоро будет избранное",Toast.LENGTH_SHORT).show()
+    }
+    fun OnKlicButtonViewed(view: View){
+        Toast.makeText(this,"Тут скоро будет просмотренное",Toast.LENGTH_SHORT).show()
     }
 }
