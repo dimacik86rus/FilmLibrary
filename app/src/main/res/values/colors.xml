@@ -5,4 +5,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="collorButton_click_ture">#4D5F6C</color>
     <color name="collorButton_click_false">#151A1E</color>
+    <color name="collor_button_text">#5D79C5</color>
+    <color name="collot_name_program">#C8C3C3</color>
+    <color name="collor_standart_text_white">#FFFFFFFF</color>
 </resources>
