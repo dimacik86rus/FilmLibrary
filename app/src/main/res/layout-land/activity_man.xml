@@ -9,7 +9,13 @@
     tools:context=".MainActivity">
 
 
-
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="208dp"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:id="@+id/topMeny"
@@ -26,12 +32,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/name_program"
+            android:text="Filmlibrary"
             android:textColor="@color/white"
             android:textSize="45sp" />
 
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -50,7 +55,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_click"
             android:onClick="OnKlicButtonMeny"
-            android:text="@string/meny"
+            android:text="Meny"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -61,7 +66,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_click"
             android:onClick="OnKlicButtonlLike"
-            android:text="@string/Like"
+            android:text="Like"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -71,7 +76,7 @@
             android:layout_height="50dp"
             android:background="@drawable/button_click"
             android:onClick="OnKlicButtonViewed"
-            android:text="@string/Viewed"
+            android:text="Viewed"
             android:textColor="@color/white"
             android:textSize="10sp" />
     </LinearLayout>
