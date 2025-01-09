@@ -11,13 +11,16 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_man)
 
     }
-    fun OnKlicButtonMeny(view: View){
-        Toast.makeText(this,"Тут скоро будет меню",Toast.LENGTH_SHORT).show()
+
+    fun OnKlicButtonMeny(view: View) {
+        Toast.makeText(this, "Тут скоро будет меню", Toast.LENGTH_SHORT).show()
     }
-    fun OnKlicButtonlLike(view: View){
-        Toast.makeText(this,"Тут скоро будет избранное",Toast.LENGTH_SHORT).show()
+
+    fun OnKlicButtonLike(view: View) {
+        Toast.makeText(this, "Тут скоро будет избранное", Toast.LENGTH_SHORT).show()
     }
-    fun OnKlicButtonViewed(view: View){
-        Toast.makeText(this,"Тут скоро будет просмотренное",Toast.LENGTH_SHORT).show()
+
+    fun OnKlicButtonViewed(view: View) {
+        Toast.makeText(this, "Тут скоро будет просмотренное", Toast.LENGTH_SHORT).show()
     }
 }
